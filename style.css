@@ -1,0 +1,65 @@
+#container {
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 492px;
+    width: 340px;
+}
+
+.row {
+    width: 300px;
+
+}
+
+#title {
+    text-align: center;
+    height: 36px;
+}
+
+ #stars {
+    height: 20px;
+}
+
+ #pic {
+    height: 300px;
+}
+
+ #desc {
+    height: 100px;
+}
+
+.meta-text {
+    height: 10px;
+    size: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.outset-border {
+    border-style: outset;
+}
+
+.ridge-border {
+    border-style: ridge;
+}
+.text-center {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; 
+
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.center {
+    width: 300px;
+    margin: 0 auto;
+}
